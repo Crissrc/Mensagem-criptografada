@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia de Textos</title>
+    <!--Estou deixando todos os comentarios para fixação-->
+
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Criptografia de Textos</h1>
+        <!-- Campo de texto para entrada do usuário -->
+        <textarea id="inputText" placeholder="Digite seu texto aqui..."></textarea>
+        <div class="buttons">
+            <!-- Botão para criptografar o texto -->
+            <button onclick="criptografar()">Criptografar</button>
+            <!-- Botão para descriptografar o texto -->
+            <button onclick="descriptografar()">Descriptografar</button>
+        </div>
+        <!-- Campo de texto para exibir o resultado -->
+        <textarea id="outputText" placeholder="Resultado..." readonly></textarea>
+        <!-- Botão para copiar o texto do resultado para a área de transferência -->
+        <button onclick="copiarTexto()">Copiar para Área de Transferência</button>
+    </div>
+    
+                    <!-- Link para o arquivo JavaScript -->
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 Criada por Cristiane Ramos. Todos os direitos reservados.</p>
+    </footer>
+        </body>
+    
+</html>
